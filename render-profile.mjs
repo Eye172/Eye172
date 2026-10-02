@@ -118,23 +118,27 @@ const date = cells.at(-1).date;
 const title = `${total} public GitHub contributions across ${active} active days in the last 16 weeks, ${days[0].date} to ${date}. ${selected.length} original public code repositories. Primary languages: ${languages.map(([name, count]) => `${name} ${count}`).join(', ')}.`;
 for (const [theme, c] of Object.entries(palettes)) {
   for (const mobile of [false, true]) {
-    const w = mobile ? 480 : 960, h = mobile ? 550 : 300;
+    const w = mobile ? 480 : 960, h = mobile ? 590 : 300;
     let body = text(30, 44, 27, c.fg, 'Code & activity', 'font-weight="600"');
-    body += text(mobile ? 30 : 930, mobile ? 76 : 43, mobile ? 20 : 18, c.muted, `Updated ${date}`, `${mono} ${mobile ? '' : 'text-anchor="end"'}`);
+    body += text(mobile ? 30 : 930, mobile ? 76 : 43, mobile ? 26 : 18, c.muted, `Updated ${date}`, `${mono} ${mobile ? '' : 'text-anchor="end"'}`);
     const top = mobile ? 122 : 104;
     body += text(30, top, 34, c.fg, total, `${mono} font-weight="600"`);
-    body += text(mobile ? 105 : 115, top - 3, mobile ? 23 : 20, c.muted, 'public contributions');
-    body += text(mobile ? 105 : 115, top + 26, mobile ? 21 : 18, c.muted, 'past 16 weeks');
+    body += text(mobile ? 105 : 115, top - 3, mobile ? 26 : 20, c.muted, 'public contributions');
+    body += text(mobile ? 105 : 115, top + 28, mobile ? 26 : 18, c.muted, 'past 16 weeks');
     const size = mobile ? 22 : 19, gap = 5;
     const graphX = mobile ? 30 : 535, graphY = mobile ? 175 : 89;
     days.forEach((day, i) => {
       body += `<rect class="activity-cell" style="--delay:${(Math.floor(i / 7) * .055).toFixed(2)}s" x="${graphX + Math.floor(i / 7) * (size + gap)}" y="${graphY + i % 7 * (size + gap)}" width="${size}" height="${size}" rx="2" fill="${c.levels[day.level]}"><title>${day.date}: ${day.count} contributions</title></rect>`;
     });
     const langTop = mobile ? 414 : 181;
-    body += text(30, langTop, mobile ? 23 : 21, c.fg, `${selected.length} public code repositories`, 'font-weight="600"');
-    body += text(30, langTop + 32, mobile ? 22 : 20, c.muted, languages.map(([name, count]) => `${name === 'Jupyter Notebook' ? 'Notebooks' : name} ${count}`).join(' · '));
-    body += text(30, mobile ? 496 : 262, mobile ? 20 : 18, c.muted, 'Original, non-empty repositories');
-    if (mobile) body += text(30, 525, 20, c.muted, 'Counts by primary language');
+    body += text(30, langTop, mobile ? 26 : 21, c.fg, `${selected.length} public code repositories`, 'font-weight="600"');
+    const languageLabels = languages.map(([name, count]) => `${name === 'Jupyter Notebook' ? 'Notebooks' : name} ${count}`);
+    if (mobile) {
+      body += text(30, langTop + 36, 26, c.muted, languageLabels.slice(0, 2).join(' · '));
+      body += text(30, langTop + 72, 26, c.muted, languageLabels.slice(2).join(' · '));
+    } else body += text(30, langTop + 32, 20, c.muted, languageLabels.join(' · '));
+    body += text(30, mobile ? 537 : 262, mobile ? 26 : 18, c.muted, 'Original, non-empty repositories');
+    if (mobile) body += text(30, 573, 26, c.muted, 'Counts by primary language');
     else body += text(535, 262, 18, c.muted, 'Less', mono) + c.levels.map((color, i) => `<rect x="${592 + i * 24}" y="249" width="17" height="17" rx="2" fill="${color}"/>`).join('') + text(722, 262, 18, c.muted, 'More', mono) + text(930, 262, 18, c.muted, `${active} active days`, 'text-anchor="end"');
     await save(`activity-${mobile ? 'mobile-' : ''}${theme}.svg`, svg(w, h, c, title, body, motion));
   }
