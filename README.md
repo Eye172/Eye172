@@ -13,7 +13,7 @@ I develop applications, ML models and AI workflows — from requirements and arc
 
 **AEDEXA co-founder · QwertyS developer · Based in Astana, Kazakhstan.**
 
-In [QwertyS](https://github.com/pip00sya), I collaborate with **Nurkhan Aimukatov** on engineering products and hackathon submissions. My earlier work includes Python applications and Unity/C# games; my current projects connect models, data and usable interfaces.
+I collaborate with **[Nurkhan Aimukatov](https://github.com/pip00sya)** in **QwertyS** on engineering products and hackathon submissions. My earlier work includes Python applications and Unity/C# games; my current projects connect models, data and usable interfaces.
 
 ### Selected work
 
@@ -51,7 +51,7 @@ In [QwertyS](https://github.com/pip00sya), I collaborate with **Nurkhan Aimukato
   <img src="stack-light.svg" alt="Python, TypeScript, C#, React, Next.js, FastAPI, PyTorch, OpenCV, Transformers, React Native, Expo, Kotlin, Three.js, React Flow and LangGraph" width="100%">
 </picture>
 
-**Across projects:** API integrations, data modelling, SSE streaming, deterministic validation around LLMs, model fine-tuning and evaluation, test scenarios and debugging. I use AI coding tools throughout development and document project boundaries and measured results.
+**Across projects:** API integrations, data modelling, SSE streaming, deterministic validation around LLMs, model fine-tuning and evaluation, test scenarios and debugging. I document architecture, implementation boundaries and measured results so the engineering decisions can be reviewed.
 
 ### More to explore
 
