@@ -1,87 +1,65 @@
 <picture>
   <source media="(max-width: 600px)" srcset="header-mobile-dark.svg">
-  <img src="header-dark.svg" alt="Shakhnazar Akhmer — Software, ML & product engineering. An animated ASCII Moon." width="100%">
+  <img src="header-dark.svg" alt="Shakhnazar Akhmer — Software, ML & AI Engineer" width="100%">
 </picture>
 
-**AI workflows, computer vision, mobile & web.**
+I develop **computer vision systems, AI workflows, and mobile & web applications**. Based in Astana, Kazakhstan. Co-founder at **AEDEXA** and developer in **QwertyS**.
 
-I build applications and ML systems — from architecture and model evaluation to working products. Based in **Astana, Kazakhstan**. Co-founder at **AEDEXA** and developer in **QwertyS**.
+[Email](mailto:shakh090909@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shakhnazar-akhmer-43791a400/) · [All repositories](https://github.com/Eye172?tab=repositories)
 
-[Email](mailto:shakh090909@gmail.com) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/shakhnazar-akhmer-43791a400/) &nbsp; · &nbsp; [Repositories](https://github.com/Eye172?tab=repositories)
+## Selected projects
 
-## Selected work
+**[Synapse](https://github.com/Eye172/synapse-app-v1)** — Android exercise analysis with camera pose tracking, movement metrics and IMU integration.  
+React Native · Kotlin · MediaPipe
 
-### [Synapse](https://github.com/Eye172/synapse-app-v1) &nbsp; / &nbsp; Mobile & computer vision
+**[CampusLense](https://github.com/Eye172/locus-hackathon-1)** — University exploration through 3D maps, photo relevance checks and source provenance.  
+React · FastAPI · 3D Maps · [Live app](https://nnurkhan91--campuslense-web.modal.run)
 
-Android exercise analysis with camera pose tracking, movement metrics and optional IMU integration. I develop the application and its native camera integrations.
+**[AgroFly](https://github.com/Eye172/ai-crop-field-analysis)** — Multispectral crop classification and field-map inference with a six-channel ResNet18.  
+Python · PyTorch · OpenCV · [Concept website](https://agrofly-website-1.vercel.app)
 
-`React Native` `TypeScript` `Kotlin` `MediaPipe`  
-**2026–present** · Application & native camera development
+**[AEDEXA](https://github.com/pip00sya/aedexa-hackathon)** — Drawing-to-3D reconstruction and a browser workspace for site planning.  
+Python · TypeScript · Three.js
 
-### [CampusLense](https://github.com/Eye172/locus-hackathon-1) &nbsp; / &nbsp; AI & geospatial
+## Stack
 
-A university exploration platform with 3D maps, photo relevance checks and source provenance. Co-developed with [Nurkhan Aimukatov](https://github.com/pip00sya) in QwertyS. **1st place, LOCUS 2026.**
+**Languages** — Python, TypeScript, Kotlin, C#  
+**ML & AI** — PyTorch, OpenCV, Transformers, LangGraph  
+**Applications** — React, Next.js, FastAPI, React Native, Expo, Three.js
 
-`React` `FastAPI` `3D Maps`  
-**September 2026** · [Live application ↗](https://nnurkhan91--campuslense-web.modal.run)
+<details>
+<summary><b>Project roles, collaborators & more work</b></summary>
 
-### [AgroFly](https://github.com/Eye172/ai-crop-field-analysis) &nbsp; / &nbsp; Machine learning
+**Synapse · 2026–present.** Application development and native camera integrations. The Android prototype combines camera-based pose tracking with optional IMU input.
 
-Six-channel ResNet18 experiments for multispectral crop classification and field-map inference. I lead software and ML; **Bauyrzhan Nurali** develops the drone. Data and field validation are being reassessed.
+**CampusLense · September 2026.** Co-developed with [Nurkhan Aimukatov](https://github.com/pip00sya) in QwertyS. **1st place, LOCUS Startup Hackathon 2026.**
 
-`Python` `PyTorch` `ResNet18` `OpenCV`  
-**2026** · [Concept website ↗](https://agrofly-website-1.vercel.app)
+**AgroFly · 2026.** I lead software and ML; **Bauyrzhan Nurali** develops the drone. The research prototype uses multispectral imagery; data and field validation are being reassessed.
 
-### [AEDEXA](https://github.com/pip00sya/aedexa-hackathon) &nbsp; / &nbsp; Product engineering
+**AEDEXA · 2026–present.** Co-founder and developer with **Nurkhan Aimukatov**. **1st place, HTML Challenge 2026.**
 
-Drawing-to-3D reconstruction and a browser workspace for site planning. Co-founder and developer with **Nurkhan Aimukatov**. **1st place, HTML Challenge 2026.**
+**[QApp](https://github.com/Eye172/qapp_hackathon_smart_university_profile_v1) · 2026.** Admissions matching, university profiles, documents and deadlines. Next.js / Prisma. Team lead and principal software developer.
 
-`Python` `TypeScript` `Three.js`  
-**2026–present** · Team repository
+**[inVisionU](https://github.com/Eye172/decentrathon5-project-v2) · March–April 2026.** Applications, voice interviews and human-reviewed AI assessments. React / FastAPI. Co-developed with Nurkhan in QwertyS.
 
-## Engineering stack
+**[ThetaDesk](https://github.com/pip00sya/theta-desk) · 2026.** Paper-trading agents, deterministic risk gates and replayable decisions. Python / Streamlit. QwertyS team project.
 
-**Software**  
-Python · TypeScript · C# · React · Next.js · FastAPI
+**[Halyk AI Agent](https://github.com/pip00sya/Halyk-ai-agent) · 2026.** Document evidence, version resolution and checked financial calculations. QwertyS team project.
 
-**Machine learning**  
-PyTorch · OpenCV · Transformers · CNNs · fine-tuning & evaluation
+**Earlier work · 2022–2023:** [Telegram bots](https://github.com/Eye172/old-project-telegram-bots-2022), [Audio player](https://github.com/Eye172/old-project-python-audioplayer-2022), [MechSolver](https://github.com/Eye172/old-project-mechsolver-telegram-bot), [Pygame](https://github.com/Eye172/old-project-pygame-2023), [Voithos](https://github.com/Eye172/old-project-fizmat-it-challenge-2023-voithos). Repository upload dates may differ from development dates.
 
-**Mobile & interactive systems**  
-React Native · Expo · Kotlin · Three.js · React Flow
+**Additional recognition · 2026:** 1st, Impact EdTech Hackathon; 2nd, Impact Admissions × QIntern Hackathon.
 
-**AI workflows**  
-LangGraph · API integrations · SSE streaming · deterministic validation
+</details>
+
+<details>
+<summary><b>GitHub activity</b></summary>
 
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="activity-mobile-light.svg">
   <source media="(max-width: 600px)" srcset="activity-mobile-dark.svg">
-  <img src="activity-dark.svg" alt="Public GitHub contribution activity for the last 16 weeks and a public repository snapshot. Counts by primary language, not a skill ranking." width="100%">
+  <source media="(prefers-color-scheme: light)" srcset="activity-light.svg">
+  <img src="activity-dark.svg" alt="Public GitHub contributions over the last 16 weeks. Refreshed weekly." width="100%">
 </picture>
 
-<details>
-<summary><b>More projects</b> — AI agents & web platforms</summary>
-
-**[QApp](https://github.com/Eye172/qapp_hackathon_smart_university_profile_v1)** · Admissions matching, university profiles, documents and deadlines. Next.js / Prisma. Team lead & principal software developer, 2026.
-
-**[inVisionU](https://github.com/Eye172/decentrathon5-project-v2)** · Structured applications, voice interviews and human-reviewed AI assessments. React / FastAPI. Co-developed with Nurkhan in QwertyS, March–April 2026.
-
-**[ThetaDesk](https://github.com/pip00sya/theta-desk)** · Paper-trading agents, deterministic risk gates and replayable decisions. Python / Streamlit. QwertyS team project, 2026.
-
-**[Halyk AI Agent](https://github.com/pip00sya/Halyk-ai-agent)** · Document evidence, version resolution and checked financial calculations. QwertyS team project, 2026.
-
 </details>
-
-<details>
-<summary><b>Earlier work</b> — Python projects, 2022–2023</summary>
-
-[Telegram bots](https://github.com/Eye172/old-project-telegram-bots-2022) · [Audio player](https://github.com/Eye172/old-project-python-audioplayer-2022) · [MechSolver](https://github.com/Eye172/old-project-mechsolver-telegram-bot) · [Pygame](https://github.com/Eye172/old-project-pygame-2023) · [Voithos](https://github.com/Eye172/old-project-fizmat-it-challenge-2023-voithos)
-
-Preserved as earlier work. Repository upload dates differ from development dates.
-
-</details>
-
----
-
-**Selected recognition · 2026**  
-1st — LOCUS Startup Hackathon · HTML Challenge · Impact EdTech Hackathon  
-2nd — Impact Admissions × QIntern Hackathon
