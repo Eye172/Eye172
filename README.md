@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="header-mobile-dark.svg">
-  <img src="header-dark.svg" alt="Shakhnazar Akhmer — Software, ML & AI Engineer" width="100%">
+  <source media="(max-width: 600px)" srcset="profile-banner-mobile.svg">
+  <img src="profile-banner.svg" alt="Shakhnazar Akhmer — Software, ML & AI Engineer" width="100%">
 </picture>
 
 I develop **computer vision systems, AI workflows, and mobile & web applications**. Based in Astana, Kazakhstan. Co-founder at **AEDEXA** and developer in **QwertyS**.
@@ -63,3 +63,4 @@ Python · TypeScript · Three.js
 </picture>
 
 </details>
+

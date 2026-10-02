@@ -28,6 +28,7 @@ if(!process.argv.includes('--metrics-only')) {
   body+=text(x,ry,roleFont,'#b8b8b8',role,`${mono} textLength="${roleWidth}" lengthAdjust="spacingAndGlyphs" clip-path="url(#r)"`);
   body+=`<path class="cursor" d="M${x+roleWidth+4} ${ry-roleFont+3}v${roleFont}" stroke="#ddd" stroke-width="2"/>`;
   const header=svg(w,h,{bg:'#000'},'Shakhnazar Akhmer — Software, ML & AI Engineer. Terminal-style typing and monochrome ASCII hands.',body,style);
+  await save(mobile?'profile-banner-mobile.svg':'profile-banner.svg',header);
   for(const theme of ['dark','light'])await save(`header-${mobile?'mobile-':''}${theme}.svg`,header);
  }
 }
