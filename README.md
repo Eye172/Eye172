@@ -41,12 +41,17 @@ Drawing-to-3D reconstruction and a browser workspace for site planning. Co-found
 
 ## Engineering stack
 
-| Focus | Tools |
-| :--- | :--- |
-| Software | Python · TypeScript · C# · React · Next.js · FastAPI |
-| Machine learning | PyTorch · OpenCV · Transformers · CNNs · fine-tuning & evaluation |
-| Mobile & interactive systems | React Native · Expo · Kotlin · Three.js · React Flow |
-| AI workflows | LangGraph · API integrations · SSE streaming · deterministic validation |
+**Software**  
+Python · TypeScript · C# · React · Next.js · FastAPI
+
+**Machine learning**  
+PyTorch · OpenCV · Transformers · CNNs · fine-tuning & evaluation
+
+**Mobile & interactive systems**  
+React Native · Expo · Kotlin · Three.js · React Flow
+
+**AI workflows**  
+LangGraph · API integrations · SSE streaming · deterministic validation
 
 <picture>
   <source media="(max-width: 600px)" srcset="activity-mobile-dark.svg">
