@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-mobile-still.svg?v=ascii-1">
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-still.svg?v=ascii-1">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-mobile.svg?v=ascii-1">
-  <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner.svg?v=ascii-1" alt="Shakhnazar Akhmer — Software, ML & AI Engineer. Astana, Kazakhstan." width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-mobile-still.svg?v=hand-spark-1">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-still.svg?v=hand-spark-1">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-mobile.svg?v=hand-spark-1">
+  <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner.svg?v=hand-spark-1" alt="Shakhnazar Akhmer — Software, ML & AI Engineer. Astana, Kazakhstan." width="100%">
 </picture>
 
 <p align="center">
@@ -61,10 +61,10 @@ I build **computer vision systems, AI workflows, and mobile & web applications**
 
 <a href="https://github.com/Eye172?tab=repositories">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-light.svg?v=ascii-1">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-dark.svg?v=ascii-1">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-light.svg?v=ascii-1">
-    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-dark.svg?v=ascii-1" alt="GitHub contribution calendar and public code repository count. The date range is printed on the card; the snapshot refreshes weekly." width="100%">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-light.svg?v=hand-spark-1">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-dark.svg?v=hand-spark-1">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-light.svg?v=hand-spark-1">
+    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-dark.svg?v=hand-spark-1" alt="GitHub contribution calendar and public code repository count. The date range is printed on the card; the snapshot refreshes weekly." width="100%">
   </picture>
 </a>
 
