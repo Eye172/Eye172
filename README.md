@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-mobile-still.svg?v=hand-spark-1">
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-still.svg?v=hand-spark-1">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner-mobile.svg?v=hand-spark-1">
-  <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/profile-banner.svg?v=hand-spark-1" alt="Shakhnazar Akhmer — Software, ML & AI Engineer. Astana, Kazakhstan." width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/fcdc3c7ee2c2eb81c120929787d2914884321d8b/profile-banner-mobile-still.svg?v=hand-spark-1">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/fcdc3c7ee2c2eb81c120929787d2914884321d8b/profile-banner-still.svg?v=hand-spark-1">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/fcdc3c7ee2c2eb81c120929787d2914884321d8b/profile-banner-mobile.svg?v=hand-spark-1">
+  <img src="https://raw.githubusercontent.com/Eye172/Eye172/fcdc3c7ee2c2eb81c120929787d2914884321d8b/profile-banner.svg?v=hand-spark-1" alt="Shakhnazar Akhmer — Software, ML & AI Engineer. Astana, Kazakhstan." width="100%">
 </picture>
 
 <p align="center">
