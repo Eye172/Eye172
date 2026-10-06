@@ -61,10 +61,10 @@ Each showcase includes the project scope, architecture and authors. Selected pag
 
 <a href="https://github.com/Eye172?tab=repositories">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-light.svg?v=hand-spark-1">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-dark.svg?v=hand-spark-1">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-light.svg?v=hand-spark-1">
-    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-dark.svg?v=hand-spark-1" alt="GitHub contribution calendar and public code repository count. The date range is printed on the card; the snapshot refreshes weekly." width="100%">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-light.svg?v=showcases-20261006">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-mobile-dark.svg?v=showcases-20261006">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-light.svg?v=showcases-20261006">
+    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/activity-dark.svg?v=showcases-20261006" alt="GitHub contribution calendar and public code repository count. The date range is printed on the card; the snapshot refreshes weekly." width="100%">
   </picture>
 </a>
 
