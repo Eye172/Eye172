@@ -35,9 +35,9 @@ const latest=cells.at(-1).date, end=new Date(latest+'T00:00:00Z');
 const start=new Date(end);start.setUTCDate(start.getUTCDate()-start.getUTCDay()-15*7);
 const startDate=start.toISOString().slice(0,10), days=cells.filter(c=>c.date>=startDate&&c.date<=latest);
 const total=days.reduce((s,c)=>s+c.count,0), active=days.filter(c=>c.count>0).length;
-const originals=repos.filter(r=>!r.fork&&r.name!=='Eye172'&&r.size>0);
+const originals=repos.filter(r=>!r.fork&&r.name!=='Eye172'&&!r.name.endsWith('-showcase')&&r.size>0);
 const themes={dark:{bg:'#101010',fg:'#ededed',muted:'#aaa',border:'#303030',levels:['#222','#535353','#828282','#b5b5b5','#ededed']},light:{bg:'#f7f7f5',fg:'#171717',muted:'#5a5a5a',border:'#d8d8d4',levels:['#e3e3de','#bdbdb7','#888883','#555550','#202020']}};
-const title=`GitHub profile calendar: ${total} contributions across ${active} active days, ${startDate} to ${latest}. ${originals.length} non-fork, non-empty public repositories, excluding this profile.`;
+const title=`GitHub profile calendar: ${total} contributions across ${active} active days, ${startDate} to ${latest}. ${originals.length} non-fork, non-empty public code repositories, excluding this profile and project showcases.`;
 for(const [theme,c] of Object.entries(themes))for(const mobile of [false,true]){
   const w=mobile?600:1120,h=mobile?430:252,pad=mobile?30:36;
   const txt=(x,y,size,value,extra='')=>`<text x="${x}" y="${y}" font-size="${size}" ${extra}>${esc(value)}</text>`;

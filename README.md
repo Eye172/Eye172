@@ -17,39 +17,39 @@ I build **computer vision systems, AI workflows, and mobile & web applications**
 
 ## Selected work
 
-| Project | What I'm building |
+| Project | What is built |
 | :--- | :--- |
-| **[01 / Synapse](https://github.com/Eye172/synapse-app-v1)**<br><sub>MOBILE · COMPUTER VISION</sub> | Android exercise analysis with pose tracking, movement metrics and optional IMU input.<br><sub>React Native · Kotlin · MediaPipe</sub> |
-| **[02 / CampusLense](https://github.com/Eye172/locus-hackathon-1)**<br><sub>WEB · DISCOVERY</sub> | University exploration with 3D maps, photo relevance checks and source provenance.<br><sub>React · FastAPI · 3D Maps</sub> |
-| **[03 / AEDEXA](https://github.com/pip00sya/aedexa-hackathon)**<br><sub>3D · ARCHITECTURE</sub> | Drawing-to-3D reconstruction and a browser workspace for site planning.<br><sub>Python · TypeScript · Three.js</sub> |
-| **[04 / AgroFly](https://github.com/Eye172/ai-crop-field-analysis)**<br><sub>ML · AGRICULTURE</sub> | Multispectral crop classification and field-map inference with a six-channel ResNet18.<br><sub>Python · PyTorch · OpenCV</sub> |
+| **[01 / Synapse](https://github.com/Eye172/synapse-showcase)**<br><sub>MOBILE · COMPUTER VISION</sub> | Android exercise analysis with pose tracking, movement metrics and optional IMU input.<br><sub>React Native · Kotlin · MediaPipe</sub> |
+| **[02 / CampusLense](https://github.com/Eye172/campuslense-showcase)**<br><sub>WEB · DISCOVERY</sub> | University exploration with 3D maps, photo relevance checks and source provenance.<br><sub>React · FastAPI · 3D Maps</sub> |
+| **[03 / AEDEXA](https://github.com/Eye172/aedexa-showcase)**<br><sub>3D · ARCHITECTURE</sub> | Drawing-to-3D reconstruction and a browser workspace for site planning.<br><sub>Python · TypeScript · Three.js</sub> |
+| **[04 / AgroFly](https://github.com/Eye172/agrofly-showcase)**<br><sub>ML · AGRICULTURE</sub> | Multispectral crop classification and field-map inference with a six-channel ResNet18.<br><sub>Python · PyTorch · OpenCV</sub> |
 
 <sub>1st place — LOCUS Startup Hackathon 2026 · HTML Challenge 2026</sub>
 
 <details>
-<summary><b>Project context, roles & more work</b></summary>
+<summary><b>More projects · browse by area</b></summary>
 
-**Synapse · 2026–present.** Android application development and native camera integrations. A team prototype combining camera-based pose tracking with optional IMU input.
+### AI tools & developer systems
 
-**CampusLense · September 2026.** Co-developed with [Nurkhan Aimukatov](https://github.com/pip00sya) in QwertyS. **1st place, LOCUS Startup Hackathon 2026.** [Live app ↗](https://nnurkhan91--campuslense-web.modal.run)
+| Project | Overview |
+| :--- | :--- |
+| [Searchious](https://github.com/Eye172/searchious-showcase) | Source-linked research maps. |
+| [Septa](https://github.com/Eye172/septa-showcase) | Source-to-slide generation and an editable presentation canvas. |
+| [ATLAS QA](https://github.com/Eye172/atlas-qa-showcase) | Browser evidence, application graphs and coverage-driven testing. |
+| [Prompt Injection Detection](https://github.com/Eye172/prompt-injection-detection-showcase) | Bilingual classifiers with error analysis. |
 
-**AEDEXA · 2026–present.** Co-founder and developer with Nurkhan Aimukatov. **1st place, HTML Challenge 2026.**
+### Education & guidance
 
-**AgroFly · 2026.** I lead software and ML; **Bauyrzhan Nurali** develops the drone. A research prototype; data and independent field validation are being reassessed. [Concept website ↗](https://agrofly-website-1.vercel.app)
-
-**[QApp](https://github.com/Eye172/qapp_hackathon_smart_university_profile_v1)** — Admissions matching, university profiles, documents and deadlines. Next.js / Prisma. Team lead and principal software developer.
-
-**[inVisionU](https://github.com/Eye172/decentrathon5-project-v2)** — Applications, voice interviews and human-reviewed AI assessments. React / FastAPI. Co-developed in QwertyS for Decentrathon 5.0.
-
-**[ThetaDesk](https://github.com/pip00sya/theta-desk)** — Paper-trading agents, deterministic risk gates and replayable decisions. Python / Streamlit. QwertyS team project.
-
-**[Halyk AI Agent](https://github.com/pip00sya/Halyk-ai-agent)** — Document evidence, version resolution and checked financial calculations. QwertyS team project.
-
-**Earlier work · 2022–2023:** [Telegram bots](https://github.com/Eye172/old-project-telegram-bots-2022), [audio player](https://github.com/Eye172/old-project-python-audioplayer-2022), [MechSolver](https://github.com/Eye172/old-project-mechsolver-telegram-bot), [Pygame](https://github.com/Eye172/old-project-pygame-2023), [Voithos](https://github.com/Eye172/old-project-fizmat-it-challenge-2023-voithos). Upload dates may differ from development dates.
-
-**Additional recognition · 2026:** 1st, Impact EdTech Hackathon; 2nd, Impact Admissions × QIntern Hackathon.
+| Project | Overview |
+| :--- | :--- |
+| [inVisionU](https://github.com/Eye172/invisionu-showcase) | Applications, voice interviews and human-reviewed assessments. |
+| [QApp](https://github.com/Eye172/qapp-showcase) | University matching, requirements and an admissions action plan. |
 
 </details>
+
+Each showcase includes the project scope, architecture and authors. Selected pages also include screenshots or experiment visuals.
+
+**Open source:** [Synapse](https://github.com/Eye172/synapse-app-v1) · [inVisionU / Decentrathon](https://github.com/Eye172/decentrathon5-project-v2)
 
 ## Toolkit
 
@@ -68,4 +68,4 @@ I build **computer vision systems, AI workflows, and mobile & web applications**
   </picture>
 </a>
 
-<sub>Repository count excludes forks, empty repositories and this profile. [Browse public code ↗](https://github.com/Eye172?tab=repositories) · [View without animation](profile-banner-still.svg)</sub>
+<sub>Repository count excludes forks, empty repositories, showcases and this profile. [Browse public code ↗](https://github.com/Eye172?tab=repositories) · [View without animation](profile-banner-still.svg)</sub>
