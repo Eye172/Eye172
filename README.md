@@ -33,21 +33,32 @@ I build **computer vision systems, AI workflows, and mobile & web applications**
 
 | Project | Overview |
 | :--- | :--- |
-| [Searchious](https://github.com/Eye172/searchious-showcase) | Source-linked research maps. |
+| [Searchious](https://github.com/Eye172/searchious-showcase) | Research maps with inspectable sources, digests and exports. |
 | [Septa](https://github.com/Eye172/septa-showcase) | Source-to-slide generation and an editable presentation canvas. |
 | [ATLAS QA](https://github.com/Eye172/atlas-qa-showcase) | Browser evidence, application graphs and coverage-driven testing. |
-| [Prompt Injection Detection](https://github.com/Eye172/prompt-injection-detection-showcase) | Bilingual classifiers with error analysis. |
+| [Prompt Injection Detection](https://github.com/Eye172/prompt-injection-detection-showcase) | Bilingual classifiers with held-out results and false-positive analysis. |
 
 ### Education & guidance
 
 | Project | Overview |
 | :--- | :--- |
-| [inVisionU](https://github.com/Eye172/invisionu-showcase) | Applications, voice interviews and human-reviewed assessments. |
-| [QApp](https://github.com/Eye172/qapp-showcase) | University matching, requirements and an admissions action plan. |
+| [inVisionU](https://github.com/Eye172/invisionu-showcase) | Applications, life maps, voice interviews and human-reviewed assessments. |
+| [QApp](https://github.com/Eye172/qapp-showcase) | University matching, programs, document readiness and deadlines. |
+| [Compass](https://github.com/Eye172/compass-showcase) | Career exploration and explainable guidance. |
+
+### Research & applied systems
+
+| Project | Overview |
+| :--- | :--- |
+| [OILAN](https://github.com/Eye172/oilan-showcase) | EEG signal preparation, calibration and assistive-control research. |
+| [WhiteBox AI](https://github.com/Eye172/whitebox-ai-showcase) | Assessment studio, frozen rubrics, evidence-linked scorecards and reviewer decisions. |
+| [Halyk Covenant Agent](https://github.com/Eye172/halyk-covenant-agent-showcase) | Document revisions, covenant calculations and evidence trails. |
+| [ThetaDesk](https://github.com/Eye172/thetadesk-showcase) | Paper-trading agents, risk gates and replayable decisions. |
+| [SAMAL](https://github.com/Eye172/samal-showcase) | Wind-power forecasts, provenance and dispatcher review. |
 
 </details>
 
-Each showcase includes the project scope, architecture and authors. Selected pages also include screenshots or experiment visuals.
+Explore 16 detailed case studies with product walkthroughs, screenshots, architecture, documented experiments and the people who built them.
 
 **Open source:** [Synapse](https://github.com/Eye172/synapse-app-v1) · [inVisionU / Decentrathon](https://github.com/Eye172/decentrathon5-project-v2)
 
