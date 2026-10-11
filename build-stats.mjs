@@ -1,4 +1,5 @@
 import {readFile, writeFile, mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 const root=new URL('./',import.meta.url), out=new URL('widgets/',root);
 const esc=v=>String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 async function get(url,html=false){
@@ -76,4 +77,8 @@ for(const [theme,c]of Object.entries(color))for(const mobile of [false,true])for
  await writeFile(new URL(`${kind}-${theme}${mobile?'-mobile':''}.svg`,out),`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(title)}"><title>${esc(title)}</title><style>text{font-family:Consolas,'Liberation Mono',Menlo,monospace}</style>${s}</svg>\n`);
 }
 await writeFile(new URL('stats.json',out),JSON.stringify(data,null,2)+'\n');
+const version=createHash('sha256').update(JSON.stringify(data)).digest('hex').slice(0,12);
+const readmeFile=new URL('README.md',root);
+const readme=await readFile(readmeFile,'utf8');
+await writeFile(readmeFile,readme.replace(/(?:https:\/\/raw\.githubusercontent\.com\/Eye172\/Eye172\/main\/)?widgets\/((?:overview|languages)-[\w-]+\.svg)(?:\?v=[^"\s]+)?/g,(_,file)=>`https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/${file}?v=${version}`));
 console.log(JSON.stringify({contributions:data.contributions,activeDays:data.activeDays,publicCodeRepos:data.publicCodeRepos,topLanguages:top}));
