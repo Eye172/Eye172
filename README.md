@@ -48,7 +48,9 @@ Six joint **QwertyS** projects, built by [Shakhnazar Akhmer / Eye172](https://gi
 
 Explore 16 detailed case studies with product walkthroughs, screenshots, architecture, documented experiments and the people who built them.
 
-**Public implementations:** [Synapse](https://github.com/Eye172/synapse-app-v1) · [inVisionU / Decentrathon](https://github.com/Eye172/decentrathon5-project-v2)
+**Public implementations:** [inVisionU / Decentrathon](https://github.com/Eye172/decentrathon5-project-v2) · [ThetaDesk](https://github.com/Eye172/alpaca-ai-trading-agents-hackathon) · [Halyk](https://github.com/Eye172/halyk-hackathon-1) · [WhiteBox AI](https://github.com/Eye172/whitebox-ai-1) · [Synapse](https://github.com/Eye172/synapse-app-v1)
+
+AEDEXA and CampusLense are presented through their showcases; their implementations are private. Halyk includes a small reproducible sample, with the full challenge datasets excluded.
 
 ## Toolkit
 
