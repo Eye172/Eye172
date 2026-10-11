@@ -52,6 +52,12 @@ Explore 16 detailed case studies with product walkthroughs, screenshots, archite
 
 AEDEXA and CampusLense are presented through their showcases; their implementations are private. Halyk includes a small reproducible sample, with the full challenge datasets excluded.
 
+## Recognition
+
+**1st place:** [AEDEXA · HTML Challenge](https://github.com/Eye172/aedexa-showcase/tree/main/docs/awards) · [CampusLense · LOCUS](https://github.com/Eye172/campuslense-showcase/tree/main/docs/awards) · [Compass · Impact EdTech](https://github.com/Eye172/compass-showcase/tree/main/docs/awards).
+
+**2nd place, IT/engineering:** [QApp · Impact × QIntern](https://github.com/Eye172/qapp-showcase/tree/main/docs/awards). [All certificates and event results](docs/RECOGNITION.md).
+
 ## Toolkit
 
 **Languages** &nbsp; `Python` `TypeScript` `Kotlin` `C#`<br>
