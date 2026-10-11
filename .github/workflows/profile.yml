@@ -1,31 +1,19 @@
-name: Refresh profile snapshot
+name: Validate profile cards
 on:
-  schedule:
-    - cron: '23 6 * * 1'
   workflow_dispatch:
   push:
     paths:
-      - render-profile.mjs
+      - build-lab.mjs
+      - widgets/**
       - .github/workflows/profile.yml
 permissions:
-  contents: write
-concurrency:
-  group: profile-snapshot
-  cancel-in-progress: false
+  contents: read
 jobs:
-  refresh:
+  check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - name: Render public repository snapshot
-        run: node render-profile.mjs --metrics-only
-      - name: Save updated cards
+      - name: Verify generated cards
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add activity-dark.svg activity-light.svg activity-mobile-dark.svg activity-mobile-light.svg
-          if ! git diff --cached --quiet; then
-            git commit -m 'Refresh public repository snapshot'
-            git push
-          fi
+          node build-lab.mjs
+          git diff --exit-code -- widgets

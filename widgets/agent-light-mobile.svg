@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-label="Agent Deck: Architecture you can inspect. Open the interactive project.">
+ <title>Agent Deck</title><desc>Architecture you can inspect. A link to the working browser project, with public source and documentation.</desc>
+ <style>text{font-family:'Courier New',monospace}.title{font-family:Georgia,'Times New Roman',serif}.signal{animation:travel 5s linear infinite}.s1{animation-delay:-1.2s}.s2{animation-delay:-2.4s}.s3{animation-delay:-3.6s}.wave{animation:breathe 6s ease-in-out infinite;transform-origin:456px 215px}.cursor{animation:blink 1.4s steps(1) infinite}@keyframes travel{to{stroke-dashoffset:-208}}@keyframes breathe{0%,100%{transform:scaleY(.78)}50%{transform:scaleY(1.18)}}@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}@media(prefers-reduced-motion:reduce){.signal,.wave,.cursor{animation:none}}</style>
+ <rect x=".5" y=".5" width="639" height="339" rx="3" fill="#fafaf7" stroke="#d5d5ce"/>
+ <text x="32" y="38" font-size="18" fill="#60605b" letter-spacing="2">01 / INTERACTIVE STUDY</text>
+ <text class="title" x="30" y="108" font-size="50" fill="#171717">Agent Deck</text>
+ <text x="32" y="151" font-size="22" fill="#60605b">Architecture you can inspect.</text>
+ <g fill="none" stroke-width="1"><path d="M350 215L412 175" stroke="#d5d5ce"/><path class="signal s0" d="M350 215L412 175" stroke="#171717" stroke-dasharray="4 100"/><path d="M350 215L412 255" stroke="#d5d5ce"/><path class="signal s0" d="M350 215L412 255" stroke="#171717" stroke-dasharray="4 100"/><path d="M412 175L490 215" stroke="#d5d5ce"/><path class="signal s1" d="M412 175L490 215" stroke="#171717" stroke-dasharray="4 100"/><path d="M412 255L490 215" stroke="#d5d5ce"/><path class="signal s2" d="M412 255L490 215" stroke="#171717" stroke-dasharray="4 100"/><path d="M490 215L565 215" stroke="#d5d5ce"/><path class="signal s3" d="M490 215L565 215" stroke="#171717" stroke-dasharray="4 100"/><rect x="344" y="209" width="12" height="12" fill="#fafaf7" stroke="#171717"/><rect x="406" y="169" width="12" height="12" fill="#fafaf7" stroke="#171717"/><rect x="406" y="249" width="12" height="12" fill="#fafaf7" stroke="#171717"/><rect x="484" y="209" width="12" height="12" fill="#fafaf7" stroke="#171717"/><rect x="559" y="209" width="12" height="12" fill="#171717" stroke="#171717"/></g>
+ <path d="M32 285H608" stroke="#d5d5ce"/>
+ <text x="32" y="315" font-size="18" fill="#171717">&gt; open / blueprints</text>
+ <rect class="cursor" x="251" y="301" width="10" height="17" fill="#171717"/>
+ <text x="608" y="315" font-size="18" text-anchor="end" fill="#60605b">LAUNCH ↗</text>
+ </svg>
