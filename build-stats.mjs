@@ -12,7 +12,10 @@ async function get(url,html=false){
 let data;
 if(process.argv.includes('--offline'))data=JSON.parse(await readFile(new URL('stats.json',out),'utf8'));
 else{
- const query='{ user(login:"Eye172") { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }';
+ const localDate=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Almaty',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+ const end=new Date(localDate+'T23:59:59+05:00');
+ const start=new Date(end);start.setUTCFullYear(start.getUTCFullYear()-1);start.setUTCSeconds(start.getUTCSeconds()+1);
+ const query=`{ user(login:"Eye172") { contributionsCollection(from:"${start.toISOString()}",to:"${end.toISOString()}") { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }`;
  let calendar;
  const inputIndex=process.argv.indexOf('--calendar');
  if(inputIndex!==-1)calendar=JSON.parse(await readFile(process.argv[inputIndex+1],'utf8'));
