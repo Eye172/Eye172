@@ -17,50 +17,38 @@ I build **computer vision systems, AI workflows, and mobile & web applications**
 
 ## Selected work
 
-| Project | What is built |
-| :--- | :--- |
-| **[01 / Synapse](https://github.com/Eye172/synapse-showcase)**<br><sub>MOBILE · COMPUTER VISION</sub> | Android exercise analysis with pose tracking, movement metrics and optional IMU input.<br><sub>React Native · Kotlin · MediaPipe</sub> |
-| **[02 / CampusLense](https://github.com/Eye172/campuslense-showcase)**<br><sub>WEB · DISCOVERY</sub> | University exploration with 3D maps, photo relevance checks and source provenance.<br><sub>React · FastAPI · 3D Maps</sub> |
-| **[03 / AEDEXA](https://github.com/Eye172/aedexa-showcase)**<br><sub>3D · ARCHITECTURE</sub> | Drawing-to-3D reconstruction and a browser workspace for site planning.<br><sub>Python · TypeScript · Three.js</sub> |
-| **[04 / AgroFly](https://github.com/Eye172/agrofly-showcase)**<br><sub>ML · AGRICULTURE</sub> | Multispectral crop classification and field-map inference with a six-channel ResNet18.<br><sub>Python · PyTorch · OpenCV</sub> |
+Six joint **QwertyS** projects, built by [Shakhnazar Akhmer / Eye172](https://github.com/Eye172) and [Nurkhan Aimukatov / pip00sya](https://github.com/pip00sya). Each case study links its companion on the other account.
 
-<sub>1st place — LOCUS Startup Hackathon 2026 · HTML Challenge 2026</sub>
+| Project | Product and current status |
+| :--- | :--- |
+| **[AEDEXA](https://github.com/Eye172/aedexa-showcase)** | Architectural site planning, terrain and drawing-to-3D workflows.<br><sub>HTML Challenge: 1st place · expanded private edition · two company pilots</sub> |
+| **[CampusLense](https://github.com/Eye172/campuslense-showcase)** | 3D campus discovery, university profiles and photo provenance.<br><sub>LOCUS: 1st place · applicant pilot planned</sub> |
+| **[inVisionU / Decentrathon 5](https://github.com/Eye172/invisionu-showcase)** | Candidate applications, life maps, voice interviews and a commission workspace.<br><sub>Hackathon prototype · public implementation</sub> |
+| **[ThetaDesk](https://github.com/Eye172/thetadesk-showcase)** | Model-assisted options research, deterministic risk gates and a replayable journal.<br><sub>Alpaca AI Trading Agents Hackathon · paper trading</sub> |
+| **[Halyk Covenant Agent](https://github.com/Eye172/halyk-covenant-agent-showcase)** | Document revision handling, covenant calculations and inspectable evidence.<br><sub>Halyk AI Challenge · 26th of 160 ranked teams</sub> |
+| **[WhiteBox AI](https://github.com/Eye172/whitebox-ai-showcase)** | Assessment studio, versioned rubrics and evidence-linked reviewer decisions.<br><sub>National Founder Cup · development paused</sub> |
 
 <details>
-<summary><b>More projects · browse by area</b></summary>
-
-### AI tools & developer systems
+<summary><b>More projects · applications and research</b></summary>
 
 | Project | Overview |
 | :--- | :--- |
-| [Searchious](https://github.com/Eye172/searchious-showcase) | Research maps with inspectable sources, digests and exports. |
+| [Synapse](https://github.com/Eye172/synapse-showcase) | Camera-based exercise analysis with optional IMU input. |
+| [AgroFly](https://github.com/Eye172/agrofly-showcase) | Multispectral crop classification and field-map inference. |
+| [Searchious](https://github.com/Eye172/searchious-showcase) | Research maps with inspectable sources and exports. |
 | [Septa](https://github.com/Eye172/septa-showcase) | Source-to-slide generation and an editable presentation canvas. |
 | [ATLAS QA](https://github.com/Eye172/atlas-qa-showcase) | Browser evidence, application graphs and coverage-driven testing. |
-| [Prompt Injection Detection](https://github.com/Eye172/prompt-injection-detection-showcase) | Bilingual classifiers with held-out results and false-positive analysis. |
-
-### Education & guidance
-
-| Project | Overview |
-| :--- | :--- |
-| [inVisionU](https://github.com/Eye172/invisionu-showcase) | Applications, life maps, voice interviews and human-reviewed assessments. |
-| [QApp](https://github.com/Eye172/qapp-showcase) | University matching, programs, document readiness and deadlines. |
+| [Prompt Injection Detection](https://github.com/Eye172/prompt-injection-detection-showcase) | Bilingual classifiers and false-positive analysis. |
+| [QApp](https://github.com/Eye172/qapp-showcase) | University discovery, programs, document readiness and deadlines. |
 | [Compass](https://github.com/Eye172/compass-showcase) | Career exploration and explainable guidance. |
-
-### Research & applied systems
-
-| Project | Overview |
-| :--- | :--- |
-| [OILAN](https://github.com/Eye172/oilan-showcase) | EEG signal preparation, calibration and assistive-control research. |
-| [WhiteBox AI](https://github.com/Eye172/whitebox-ai-showcase) | Assessment studio, frozen rubrics, evidence-linked scorecards and reviewer decisions. |
-| [Halyk Covenant Agent](https://github.com/Eye172/halyk-covenant-agent-showcase) | Document revisions, covenant calculations and evidence trails. |
-| [ThetaDesk](https://github.com/Eye172/thetadesk-showcase) | Paper-trading agents, risk gates and replayable decisions. |
+| [OILAN](https://github.com/Eye172/oilan-showcase) | EEG signal preparation and assistive-control research. |
 | [SAMAL](https://github.com/Eye172/samal-showcase) | Wind-power forecasts, provenance and dispatcher review. |
 
 </details>
 
 Explore 16 detailed case studies with product walkthroughs, screenshots, architecture, documented experiments and the people who built them.
 
-**Open source:** [Synapse](https://github.com/Eye172/synapse-app-v1) · [inVisionU / Decentrathon](https://github.com/Eye172/decentrathon5-project-v2)
+**Public implementations:** [Synapse](https://github.com/Eye172/synapse-app-v1) · [inVisionU / Decentrathon](https://github.com/Eye172/decentrathon5-project-v2)
 
 ## Toolkit
 
