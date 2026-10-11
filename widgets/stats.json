@@ -1,0 +1,77 @@
+{
+  "updated": "2026-10-11",
+  "from": "2025-10-12",
+  "to": "2026-10-11",
+  "contributions": 317,
+  "activeDays": 29,
+  "publicCodeRepos": 15,
+  "repositories": [
+    "-resonance-lab",
+    "agent-deck-1",
+    "alpaca-ai-trading-agents-hackathon",
+    "decentrathon5-project-v2",
+    "halyk-hackathon-1",
+    "impact-hackathon-2",
+    "old-project-fizmat-it-challenge-2023-voithos",
+    "old-project-mechsolver-telegram-bot",
+    "old-project-pygame-2023",
+    "old-project-python-audioplayer-2022",
+    "old-project-telegram-bots-2022",
+    "prompt_injection_ai_safety_analysis_v1",
+    "qapp_hackathon_smart_university_profile_v1",
+    "synapse-app-v1",
+    "whitebox-ai-1"
+  ],
+  "languages": [
+    {
+      "name": "TypeScript",
+      "bytes": 4865302
+    },
+    {
+      "name": "Python",
+      "bytes": 940355
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 905527
+    },
+    {
+      "name": "HTML",
+      "bytes": 481595
+    },
+    {
+      "name": "Kotlin",
+      "bytes": 283540
+    },
+    {
+      "name": "CSS",
+      "bytes": 187512
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 42514
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 32356
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 15280
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 1650
+    },
+    {
+      "name": "Makefile",
+      "bytes": 1023
+    },
+    {
+      "name": "VBScript",
+      "bytes": 740
+    }
+  ],
+  "source": "https://github.com/users/Eye172/contributions",
+  "languageSource": "https://docs.github.com/en/rest/repos/repos#list-repository-languages"
+}

@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#open-lab">Open lab</a> &nbsp; / &nbsp;
+  <a href="#github">GitHub</a> &nbsp; / &nbsp;
   <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
   <a href="mailto:shakh090909@gmail.com">Email</a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/shakhnazar-akhmer-43791a400/">LinkedIn ↗</a>
@@ -48,27 +48,27 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 
 </details>
 
-## Open lab
+## GitHub
 
-Two things you can try in your browser.
-
-<a href="https://eye172.github.io/agent-deck-1/">
+<a href="https://github.com/Eye172?tab=overview">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="widgets/agent-light-mobile.svg">
-    <source media="(max-width: 600px)" srcset="widgets/agent-dark-mobile.svg">
-    <source media="(prefers-color-scheme: light)" srcset="widgets/agent-light.svg">
-    <img src="widgets/agent-dark.svg" width="100%" alt="Agent Deck — inspect architecture blueprints. Open the interactive project.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="widgets/overview-light-mobile.svg">
+    <source media="(max-width: 600px)" srcset="widgets/overview-dark-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="widgets/overview-light.svg">
+    <img src="widgets/overview-dark.svg" width="100%" alt="GitHub overview — contributions, active days and public code repositories.">
   </picture>
 </a>
 
-<a href="https://eye172.github.io/-resonance-lab/">
+<a href="https://github.com/Eye172?tab=repositories&amp;type=source">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="widgets/resonance-light-mobile.svg">
-    <source media="(max-width: 600px)" srcset="widgets/resonance-dark-mobile.svg">
-    <source media="(prefers-color-scheme: light)" srcset="widgets/resonance-light.svg">
-    <img src="widgets/resonance-dark.svg" width="100%" alt="Resonance Lab — sound, wave fields and visual geometry. Open the interactive project.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="widgets/languages-light-mobile.svg">
+    <source media="(max-width: 600px)" srcset="widgets/languages-dark-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="widgets/languages-light.svg">
+    <img src="widgets/languages-dark.svg" width="100%" alt="Languages — distribution of code bytes across public source repositories.">
   </picture>
 </a>
+
+<sub>Refreshed daily from GitHub. [Data and methodology](docs/STATS.md).</sub>
 
 ## Toolkit
 
