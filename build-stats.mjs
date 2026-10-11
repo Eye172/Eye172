@@ -14,7 +14,7 @@ if(process.argv.includes('--offline'))data=JSON.parse(await readFile(new URL('st
 else{
  const localDate=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Almaty',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
  const end=new Date(localDate+'T23:59:59+05:00');
- const start=new Date(end);start.setUTCFullYear(start.getUTCFullYear()-1);start.setUTCSeconds(start.getUTCSeconds()+1);
+ const start=new Date(localDate+'T00:00:00+05:00');start.setUTCFullYear(start.getUTCFullYear()-1);
  const query=`{ user(login:"Eye172") { contributionsCollection(from:"${start.toISOString()}",to:"${end.toISOString()}") { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }`;
  let calendar;
  const inputIndex=process.argv.indexOf('--calendar');
