@@ -11,17 +11,21 @@ async function get(url,html=false){
 let data;
 if(process.argv.includes('--offline'))data=JSON.parse(await readFile(new URL('stats.json',out),'utf8'));
 else{
- const html=await get('https://github.com/users/Eye172/contributions',true);
- const tips=new Map([...html.matchAll(/<tool-tip\b[^>]*for="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g)].map(m=>[m[1],m[2].trim()]));
- const days=[...html.matchAll(/<td\b([^>]*\bdata-date="\d{4}-\d{2}-\d{2}"[^>]*)>/g)].map(m=>{
-  const attr=n=>m[1].match(new RegExp(`(?:^|\\s)${n}="([^"]*)"`))?.[1];
-  const label=tips.get(attr('id'));
-  const count=/^No contributions/.test(label||'')?0:Number(label?.match(/^([\d,]+) contributions?/)?.[1]?.replaceAll(',',''));
-  if(!Number.isInteger(count)||count<0)throw Error('Unrecognized public calendar count');
-  return {date:attr('data-date'),count};
- }).sort((a,b)=>a.date.localeCompare(b.date));
- const heading=html.match(/id="js-contribution-activity-description"[^>]*>\s*([\d,]+)\s+contributions?/);
- const total=Number(heading?.[1]?.replaceAll(',',''));
+ const query='{ user(login:"Eye172") { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }';
+ let calendar;
+ const inputIndex=process.argv.indexOf('--calendar');
+ if(inputIndex!==-1)calendar=JSON.parse(await readFile(process.argv[inputIndex+1],'utf8'));
+ else{
+  if(!process.env.GITHUB_TOKEN)throw Error('Use GITHUB_TOKEN, --calendar <export.json>, or --offline');
+  const response=await fetch('https://api.github.com/graphql',{method:'POST',headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,'Content-Type':'application/json','User-Agent':'Eye172-profile'},body:JSON.stringify({query}),signal:AbortSignal.timeout(30000)});
+  if(!response.ok)throw Error(`Calendar HTTP ${response.status}; keeping last successful snapshot`);
+  const result=await response.json();
+  if(result.errors)throw Error('Calendar query failed; keeping last successful snapshot');
+  calendar=result.data?.user?.contributionsCollection?.contributionCalendar;
+ }
+ const days=calendar.weeks.flatMap(w=>w.contributionDays).map(d=>({date:d.date,count:d.contributionCount})).sort((a,b)=>a.date.localeCompare(b.date));
+ const total=calendar.totalContributions;
+ if(days.some(d=>!Number.isInteger(d.count)||d.count<0))throw Error('Invalid calendar data');
  if(days.length<365||days.length>371||total!==days.reduce((s,d)=>s+d.count,0))throw Error('Public calendar validation failed');
  const repos=[];
  for(let page=1;;page++){
@@ -34,7 +38,7 @@ else{
   const bytes=await get(`https://api.github.com/repos/Eye172/${encodeURIComponent(repo.name)}/languages`);
   for(const [name,n]of Object.entries(bytes))languages[name]=(languages[name]||0)+n;
  }
- data={updated:new Date().toISOString().slice(0,10),from:days[0].date,to:days.at(-1).date,contributions:total,activeDays:days.filter(d=>d.count>0).length,publicCodeRepos:code.length,repositories:code.map(r=>r.name).sort(),languages:Object.entries(languages).sort((a,b)=>b[1]-a[1]).map(([name,bytes])=>({name,bytes})),source:'https://github.com/users/Eye172/contributions',languageSource:'https://docs.github.com/en/rest/repos/repos#list-repository-languages'};
+ data={updated:new Date().toISOString().slice(0,10),from:days[0].date,to:days.at(-1).date,contributions:total,activeDays:days.filter(d=>d.count>0).length,publicCodeRepos:code.length,repositories:code.map(r=>r.name).sort(),languages:Object.entries(languages).sort((a,b)=>b[1]-a[1]).map(([name,bytes])=>({name,bytes})),source:'https://docs.github.com/en/graphql/reference/users#contributioncalendar',includesAnonymizedPrivateActivity:true,languageSource:'https://docs.github.com/en/rest/repos/repos#list-repository-languages'};
 }
 if(!data.languages.length||!data.publicCodeRepos)throw Error('Empty source data');
 await mkdir(out,{recursive:true});
@@ -49,7 +53,7 @@ for(const [theme,c]of Object.entries(color))for(const mobile of [false,true])for
  let s=`<rect x=".5" y=".5" width="${w-1}" height="${h-1}" rx="6" fill="${c.bg}" stroke="${c.line}"/>`;
  s+=text(pad,40,mobile?19:14,kind==='overview'?'GITHUB / OVERVIEW':'CODE / LANGUAGE MIX',`letter-spacing="2"`).replace(`fill="${c.fg}"`,`fill="${c.muted}"`);
  if(kind==='overview'){
-  const metrics=[[data.contributions,'contributions','public profile · last year'],[data.activeDays,'active days','last year'],[data.publicCodeRepos,'code repositories','public · non-fork']];
+  const metrics=[[data.contributions,'contributions','incl. private · last year'],[data.activeDays,'active days','last year'],[data.publicCodeRepos,'code repositories','public · non-fork']];
   metrics.forEach(([n,label,note],i)=>{
    const x=mobile?pad:pad+i*354,y=mobile?102+i*104:126;
    s+=text(x,y,mobile?48:56,n,'font-weight="600"');

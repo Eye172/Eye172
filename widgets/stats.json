@@ -1,9 +1,9 @@
 {
   "updated": "2026-10-11",
   "from": "2025-10-12",
-  "to": "2026-10-11",
-  "contributions": 317,
-  "activeDays": 29,
+  "to": "2026-10-12",
+  "contributions": 529,
+  "activeDays": 44,
   "publicCodeRepos": 15,
   "repositories": [
     "-resonance-lab",
@@ -72,6 +72,7 @@
       "bytes": 740
     }
   ],
-  "source": "https://github.com/users/Eye172/contributions",
+  "source": "https://docs.github.com/en/graphql/reference/users#contributioncalendar",
+  "includesAnonymizedPrivateActivity": true,
   "languageSource": "https://docs.github.com/en/rest/repos/repos#list-repository-languages"
 }
