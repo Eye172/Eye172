@@ -88,3 +88,5 @@ Technologies used across the projects above.
 **1st place:** [AEDEXA · HTML Challenge](https://github.com/Eye172/aedexa-showcase/tree/main/docs/awards) · [CampusLense · LOCUS](https://github.com/Eye172/campuslense-showcase/tree/main/docs/awards) · [Compass · Impact EdTech](https://github.com/Eye172/impact-hackathon-2/tree/main/docs/showcase/docs/awards).
 
 **2nd place, IT/engineering:** [QApp · Impact × QIntern](https://github.com/Eye172/qapp_hackathon_smart_university_profile_v1/tree/main/docs/showcase/docs/awards). [Original certificates and event results](docs/RECOGNITION.md).
+
+<sub>Earlier account: Magitcian172 → Eye172. [Account history](docs/AUTHORSHIP.md).</sub>
