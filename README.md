@@ -41,7 +41,7 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 | [Prompt Injection Detection](https://github.com/Eye172/prompt_injection_ai_safety_analysis_v1) | EN/RU training experiments, evaluation and false-positive analysis. |
 | [Compass](https://github.com/Eye172/impact-hackathon-2) | Explainable career navigation. Impact EdTech: 1st place. |
 | [QApp](https://github.com/Eye172/qapp_hackathon_smart_university_profile_v1) | University discovery and preparation plans. Impact × QIntern: 2nd place in IT/engineering. |
-| [inVisionU](https://github.com/Eye172/decentrathon5-project-v2) | Applications, voice interviews and a commission workspace. Decentrathon 5. |
+| [inVisionU](https://github.com/Eye172/decentrathon5-project-v2) | Applications, voice interviews and a commission workspace. Decentrathon 5.0: inDrive track finalist. |
 | [ThetaDesk](https://github.com/Eye172/alpaca-ai-trading-agents-hackathon) | Options research, risk gates and a replayable paper-trading journal. |
 | [Halyk Covenant Agent](https://github.com/Eye172/halyk-hackathon-1) | Document evidence and covenant calculations. Includes a small reproducible sample. |
 | [WhiteBox AI](https://github.com/Eye172/whitebox-ai-1) | Versioned assessment rubrics and evidence-linked human review. Development paused. |
@@ -91,5 +91,7 @@ Technologies used across the projects above.
 **1st place:** [AEDEXA · HTML Challenge](https://github.com/Eye172/aedexa-showcase/tree/main/docs/awards) · [CampusLense · LOCUS](https://github.com/Eye172/campuslense-showcase/tree/main/docs/awards) · [Compass · Impact EdTech](https://github.com/Eye172/impact-hackathon-2/tree/main/docs/showcase/docs/awards).
 
 **2nd place, IT/engineering:** [QApp · Impact × QIntern](https://github.com/Eye172/qapp_hackathon_smart_university_profile_v1/tree/main/docs/showcase/docs/awards). [Original certificates and event results](docs/RECOGNITION.md).
+
+**Finalist:** [inVisionU · Decentrathon 5.0, AI inDrive track](https://github.com/Eye172/decentrathon5-project-v2/blob/main/docs/showcase/docs/awards/README.md#organizer-announcement-finalist-selection) · Team QwertyS · selected for Stage 3.
 
 <sub>Earlier account: Magitcian172 → Eye172. [Account history](docs/AUTHORSHIP.md).</sub>
