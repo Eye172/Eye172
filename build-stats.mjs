@@ -36,7 +36,22 @@ else{
   const batch=await get(`https://api.github.com/users/Eye172/repos?type=owner&per_page=100&page=${page}`);
   repos.push(...batch);if(batch.length<100)break;
  }
- const code=repos.filter(r=>!r.private&&!r.fork&&r.size>0&&r.name!=='Eye172'&&!r.name.endsWith('-showcase'));
+ const candidates=repos.filter(r=>!r.private&&!r.fork&&r.name!=='Eye172'&&!r.name.endsWith('-showcase'));
+ const code=[];
+ for(const repo of candidates){
+  // GitHub can report size=0 before a newly pushed repository is indexed.
+  // Check for a real commit rather than dropping that repository from the card.
+  if(repo.size===0){
+   try{
+    const commits=await get(`https://api.github.com/repos/Eye172/${encodeURIComponent(repo.name)}/commits?per_page=1`);
+    if(!commits.length)continue;
+   }catch(error){
+    if(String(error.message).includes('GitHub HTTP 409'))continue;
+    throw error;
+   }
+  }
+  code.push(repo);
+ }
  const languages={};
  for(const repo of code){
   const bytes=await get(`https://api.github.com/repos/Eye172/${encodeURIComponent(repo.name)}/languages`);
