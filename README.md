@@ -21,8 +21,8 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 | :--- | :--- |
 | **[AEDEXA](https://github.com/Eye172/aedexa-showcase)** | Architectural site planning, terrain and drawing-to-3D workflows.<br><sub>HTML Challenge: 1st place · two company pilots · private product</sub> |
 | **[CampusLense](https://github.com/Eye172/campuslense-showcase)** | A globe, 3D campus visits and university profiles with photo provenance.<br><sub>LOCUS: 1st place · public case study</sub> |
-| **[AgroFly](https://github.com/Eye172/agrofly-showcase)** | Scout-drone hardware, multispectral crop classification and field maps.<br><sub>Hardware + ML · Jas Urpaq finalist</sub> |
-| **[Synapse](https://github.com/Eye172/synapse-showcase)** | Camera-based exercise analysis, movement metrics and optional wearable IMUs.<br><sub>Android + computer vision · [public source](https://github.com/Eye172/synapse-app-v1)</sub> |
+| **[AgroFly](https://github.com/Eye172/agrofly-showcase)** | Scout-drone hardware, multispectral crop classification and field maps.<br><sub>Hardware + ML · Jas Urpaq finalist · development on hold</sub> |
+| **[Synapse](https://github.com/Eye172/synapse-showcase)** | Camera-based exercise analysis, movement metrics and optional wearable IMUs.<br><sub>Android + computer vision · private code · public case study</sub> |
 | **[Septa](https://github.com/Eye172/septa-showcase)** | Mixed source material becomes an editable presentation, with native editing and exports.<br><sub>Private prototype · demo and exported examples · development paused</sub> |
 | **[Agent Deck](https://github.com/Eye172/agent-deck-1)** | An explorable catalog of agent architectures, diagrams and downloadable blueprints.<br><sub>Public source · [try it](https://eye172.github.io/agent-deck-1/)</sub> |
 | **[Resonance Lab](https://github.com/Eye172/-resonance-lab)** | Browser audio experiments with wave fields, spectra and visual geometry.<br><sub>Public source · research notes · [try it](https://eye172.github.io/-resonance-lab/)</sub> |
