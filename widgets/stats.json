@@ -2,9 +2,9 @@
   "updated": "2026-10-12",
   "from": "2025-10-12",
   "to": "2026-10-12",
-  "contributions": 629,
+  "contributions": 640,
   "activeDays": 60,
-  "publicCodeRepos": 15,
+  "publicCodeRepos": 16,
   "repositories": [
     "-resonance-lab",
     "agent-deck-1",
@@ -20,6 +20,7 @@
     "prompt_injection_ai_safety_analysis_v1",
     "qapp_hackathon_smart_university_profile_v1",
     "synapse-app-v1",
+    "unity-archive",
     "whitebox-ai-1"
   ],
   "languages": [
@@ -29,7 +30,7 @@
     },
     {
       "name": "Python",
-      "bytes": 940355
+      "bytes": 940803
     },
     {
       "name": "JavaScript",
@@ -46,6 +47,10 @@
     {
       "name": "CSS",
       "bytes": 187512
+    },
+    {
+      "name": "C#",
+      "bytes": 176682
     },
     {
       "name": "Jupyter Notebook",
