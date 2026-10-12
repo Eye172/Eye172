@@ -82,6 +82,7 @@ Technologies used across the projects above.
 | ML & vision | `PyTorch` `Transformers` `OpenCV` `MediaPipe` `LangGraph` |
 | Web & graphics | `React` `Next.js` `Three.js` `React Flow` `MapLibre` |
 | Mobile | `React Native` `Expo` `CameraX` |
+| Games & desktop | `Unity` `Pygame` `Tkinter` |
 | Services & data | `FastAPI` `Fastify` `Prisma` `SQLite` `NumPy` `pandas` |
 | Build & quality | `Git` `Docker` `GitHub Actions` `pytest` `Playwright` `Vitest` |
 
