@@ -46,6 +46,8 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 | [Halyk Covenant Agent](https://github.com/Eye172/halyk-hackathon-1) | Document evidence and covenant calculations. Includes a small reproducible sample. |
 | [WhiteBox AI](https://github.com/Eye172/whitebox-ai-1) | Versioned assessment rubrics and evidence-linked human review. Development paused. |
 
+[Unity archive · 2022–2025](https://github.com/Eye172/unity-archive) — seven early games and studies, preserved source, chronology and recorded previews.
+
 </details>
 
 ## GitHub
