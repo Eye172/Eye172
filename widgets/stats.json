@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "from": "2025-10-12",
-  "to": "2026-10-12",
-  "contributions": 640,
+  "to": "2026-10-13",
+  "contributions": 647,
   "activeDays": 60,
-  "publicCodeRepos": 16,
+  "publicCodeRepos": 15,
   "repositories": [
     "-resonance-lab",
     "agent-deck-1",
@@ -19,30 +19,25 @@
     "old-project-telegram-bots-2022",
     "prompt_injection_ai_safety_analysis_v1",
     "qapp_hackathon_smart_university_profile_v1",
-    "synapse-app-v1",
     "unity-archive",
     "whitebox-ai-1"
   ],
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 4865302
+      "bytes": 4061354
     },
     {
       "name": "Python",
-      "bytes": 940803
+      "bytes": 934446
     },
     {
       "name": "JavaScript",
-      "bytes": 905527
+      "bytes": 878768
     },
     {
       "name": "HTML",
-      "bytes": 481595
-    },
-    {
-      "name": "Kotlin",
-      "bytes": 283540
+      "bytes": 418303
     },
     {
       "name": "CSS",
