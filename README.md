@@ -20,7 +20,7 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 | Project | Product and engineering |
 | :--- | :--- |
 | **[AEDEXA](https://github.com/Eye172/aedexa-showcase)** | Architectural site planning, terrain and drawing-to-3D workflows.<br><sub>HTML Challenge: 1st place · two company pilots · private product</sub> |
-| **[CampusLense](https://github.com/Eye172/campuslense-showcase)** | A globe, 3D campus visits and university profiles with photo provenance.<br><sub>LOCUS: 1st place · public case study</sub> |
+| **[CampusLense](https://github.com/Eye172/campuslense-showcase)** | A globe, 3D campus visits and university profiles with photo provenance.<br><sub>LOCUS: 1st place · [October pilot: 104 activated accounts](https://github.com/Eye172/campuslense-showcase/tree/main/docs/pilot)</sub> |
 | **[AgroFly](https://github.com/Eye172/agrofly-showcase)** | Scout-drone hardware, multispectral crop classification and field maps.<br><sub>Hardware + ML · Jas Urpaq finalist · development on hold</sub> |
 | **[Synapse](https://github.com/Eye172/synapse-showcase)** | Camera-based exercise analysis, movement metrics and optional wearable IMUs.<br><sub>Android + computer vision · private code · public case study</sub> |
 | **[Septa](https://github.com/Eye172/septa-showcase)** | Mixed source material becomes an editable presentation, with native editing and exports.<br><sub>Private prototype · demo and exported examples · development paused</sub> |
