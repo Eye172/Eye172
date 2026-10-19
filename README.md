@@ -36,7 +36,6 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 | :--- | :--- |
 | [ATLAS QA](https://github.com/Eye172/atlas-qa-showcase) | Browser evidence, persistent application graphs and coverage-driven testing. |
 | [Searchious](https://github.com/Eye172/searchious-showcase) | Research maps, source inspection and portable exports. |
-| [OILAN](https://github.com/Eye172/oilan-showcase) | EEG preparation, calibration experiments and an assistive-mobility concept. |
 | [SAMAL](https://github.com/Eye172/samal-showcase) | Wind-power forecasts, historical weather and issue-by-issue provenance. [HackAlem AI: 84/100](https://github.com/Eye172/samal-showcase/blob/main/docs/HACKATHON.md). |
 | [Prompt Injection Detection](https://github.com/Eye172/prompt_injection_ai_safety_analysis_v1) | EN/RU training experiments, evaluation and false-positive analysis. |
 | [Compass](https://github.com/Eye172/impact-hackathon-2) | Explainable career navigation. Impact EdTech: 1st place. |
