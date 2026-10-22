@@ -53,19 +53,19 @@ I build **computer vision systems, AI tools, and interactive applications** — 
 
 <a href="https://github.com/Eye172?tab=overview">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-light-mobile.svg?v=4e6148c93fa0">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-dark-mobile.svg?v=4e6148c93fa0">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-light.svg?v=4e6148c93fa0">
-    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-dark.svg?v=4e6148c93fa0" width="100%" alt="GitHub overview — contributions, active days and public code repositories.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-light-mobile.svg?v=ac283c64e5aa">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-dark-mobile.svg?v=ac283c64e5aa">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-light.svg?v=ac283c64e5aa">
+    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/overview-dark.svg?v=ac283c64e5aa" width="100%" alt="GitHub overview — contributions, active days and public code repositories.">
   </picture>
 </a>
 
 <a href="https://github.com/Eye172?tab=repositories&amp;type=source">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-light-mobile.svg?v=4e6148c93fa0">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-dark-mobile.svg?v=4e6148c93fa0">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-light.svg?v=4e6148c93fa0">
-    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-dark.svg?v=4e6148c93fa0" width="100%" alt="Languages — distribution of code bytes across public source repositories.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-light-mobile.svg?v=ac283c64e5aa">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-dark-mobile.svg?v=ac283c64e5aa">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-light.svg?v=ac283c64e5aa">
+    <img src="https://raw.githubusercontent.com/Eye172/Eye172/main/widgets/languages-dark.svg?v=ac283c64e5aa" width="100%" alt="Languages — distribution of code bytes across public source repositories.">
   </picture>
 </a>
 
